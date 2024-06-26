@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4U</title>
+
+    <style>
+
+.box {
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  clear: none;
+}
+.red {
+  background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.indigo{
+    background-color: indigo;
+}
+.violet{
+    background-color: violet;
+}
+h1{ text-align: center;}
+#ques{
+
+    margin:auto; 
+}
+#centerDiv{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Answer the following questions </h1>
+    <div id="centerDiv">
+
+    <form action="./submit.html" id="ques"> 
+        <ol>
+     <li>  <label for="country">Choose your country</label> <br> <br> </li> 
+<select name="country" id="country">
+<option value="India">India</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States">United States</option>
+<option value="other country">other country</option>
+</select>
+<li> <label for="q2">Do you prefer to give or recive?</label></li>
+<input type="radio" name="q2" id="give" value="give"> <label for="q2">Give</label>
+<input type="radio" name="q2" id="recive" value="recive"> <label for="q2">receive</label>
+
+<li> <label for="q3">Do you prefer Day or Night?</label></li>
+<input type="radio" name="q3" id="day" value="day"> <label for="q3">Day</label>
+<input type="radio" name="q3" id="night" value="night"> <label for="q3">Night</label>
+
+<li> <label for="q4">Are you a cat person or a dog person?</label></li>
+<input type="radio" name="q4" id="day" value="day"> <label for="q4">Cat</label>
+<input type="radio" name="q4" id="night" value="night"> <label for="q4">Dog</label>
+
+<li> <label for="q">Can you play a musical instrument?</label></li>
+<input type="radio" name="q" id="q" value="q"> <label for="q">Yes</label>
+<input type="radio" name="q" id="q" value="q"> <label for="q">No</label>
+
+
+<li> <label for="q5"> Choose the hues that you find appealing </label></li>
+<bdo dir="ltr">
+<input type="checkbox" id="clr1" name="clr1" value="clr"> 
+<input type="checkbox" id="clr2" name="clr2" value="clr"> 
+<input type="checkbox" id="clr3" name="clr3" value="clr">  
+<input type="checkbox" id="clr4" name="clr4" value="clr">
+<input type="checkbox" id="clr5" name="clr5" value="clr"> 
+<input type="checkbox" id="clr6" name="clr6" value="clr">
+<input type="checkbox" id="clr7" name="clr7" value="clr">
+ <br>
+</bdo>
+<bdo dir="ltr">
+
+    <label for="q5"> <div class= "box red"></div> </label> 
+    <label for="q5">  <div class= "box orange"></div></label>
+    <label for="q5">  <div class= "box yellow"></div></label>
+    <label for="q5"> <div class= "box green"></div> </label> 
+    <label for="q5"> <div class= "box blue"></div> </label>
+    <label for="q5"> <div class= "box indigo"></div> </label>
+    <label for="q5"> <div class= "box violet"></div> </label>
+
+</bdo> <br> <br>
+
+<li><label for="q6"></label>Select the smartphone brands you like</li> 
+<input type="checkbox" name="phone1" id="phone1" value="phone1">
+<label for="q6"> apple</label>
+<input type="checkbox" name="phone2" id="phone2" value="phone2">
+<label for="q6"> samsung</label>
+<input type="checkbox" name="phone3" id="phone3" value="phone3">
+<label for="q6"> vivo</label>
+<input type="checkbox" name="phone4" id="phone4" value="phone4">
+<label for="q6"> xiaomi</label>
+<input type="checkbox" name="phone5" id="phone5" value="phone5">
+<label for="q6"> nokia</label>
+<li><label for="q7">Choose the genres of films that you enjoy</label></li>
+<input type="checkbox" name="genre1" id="genre2" value="genre1">
+<label for="q7"> Action</label>
+<input type="checkbox" name="genre2" id="genre2" value="genres2">
+<label for="q7"> Horror </label>
+<input type="checkbox" name="genre3" id="genre3" value="genres3">
+<label for="q7"> Drama </label>
+<input type="checkbox" name="genre4" id="genre4" value="genres4">
+<label for="q7"> Science fiction </label>
+<input type="checkbox" name="genre5" id="genre5" value="genres5">
+<label for="q7"> Comedy </label>
+<input type="checkbox" name="genre6" id="genre6" value="genres6">
+<label for="q7"> Romance</label>
+
+
+
+<li> <label for="q8">What's your favorite movie quote?</label></li>
+<textarea name="movie quote" id="movie quote" rows="4" cols="40"></textarea>
+
+<li> <label for="q9">Who's your favorite person in your life? </label></li>
+<textarea name="person" id="person" rows="4" cols="40"></textarea> <br> <br>
+
+<!-- <li> <label for="q10">What's the best book you ever read? </label></li>
+<textarea name="book" id="book" rows="4" cols="40"></textarea> -->
+<input type="submit" value="submit">
+</ol>
+    </form>
+</div>
+    
+</body>
+</html>
